@@ -21,6 +21,8 @@ You'll need to know how to
 
 You'll need to fill in your Mysql instance credentials as well as your google application information in the .env file
 ```
+APP_URL=
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -32,6 +34,7 @@ GOOGLE_CLIENT_ID=xxxxxxxx
 GOOGLE_CLIENT_SECRET=xxxxxxxx
 GOOGLE_CALLBACK_URL=/auth/google/callback
 ```
+APP_URL needs to be 127.0.0.1, or you could set the url name in your windows host file
 
 From the root folder run
 ```
